@@ -1,18 +1,29 @@
 {
   "name": "nodejs-starter-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A reusable Node.js starter template with ESLint, Prettier, Jest, and GitHub Actions CI.",
+  "private": true,
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check eslint.config.js sum.js sum.test.js package.json package-lock.json .prettierrc .github/workflows/ci.yml"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "starter",
+    "template",
+    "eslint",
+    "prettier",
+    "jest",
+    "github-actions"
+  ],
+  "author": "Faizan Ali",
+  "license": "MIT",
   "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.12.0",
