@@ -86,6 +86,17 @@ npm run format:check
 npm test
 ```
 
+## Recommended VS Code Extensions
+
+If you use Visual Studio Code, this template includes recommended extensions for:
+
+- ESLint
+- Prettier - Code formatter
+- Jest
+- GitHub Actions
+
+VS Code may automatically prompt you to install the recommended extensions when you open the project.
+
 If all checks pass successfully, your project is ready for development.
 
 ## Available Scripts
@@ -104,6 +115,8 @@ If all checks pass successfully, your project is ready for development.
 ├── .github/
 │   └── workflows/
 │       └── ci.yml
+├── .vscode/
+│   └── extensions.json
 ├── .gitignore
 ├── .prettierignore
 ├── .prettierrc
@@ -117,7 +130,6 @@ If all checks pass successfully, your project is ready for development.
 ├── package.json
 ├── sum.js
 └── sum.test.js
-```
 
 `sum.js` and `sum.test.js` are simple example files demonstrating the Jest setup. Replace them with your application code and tests when starting a real project.
 
