@@ -154,6 +154,20 @@ test/add-unit-tests
 chore/update-config
 ```
 
+## Recommended Repository Settings
+
+GitHub repository settings are not automatically copied when a new repository is created from this template.
+
+For a production or collaborative project, consider configuring:
+
+- Branch protection or a ruleset for `main`
+- Pull requests before merging
+- Required CI status checks
+- Conversation resolution before merging
+- Block force pushes
+- Block branch deletion
+- Private vulnerability reporting for public repositories
+
 ## Conventional Commits
 
 Use clear Conventional Commit messages.
