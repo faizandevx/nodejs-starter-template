@@ -18,7 +18,7 @@
 - ✅ GitHub Actions CI
 - ✅ Conventional Commits
 - ✅ Trunk-based development workflow
-- ✅ Pull request and branch protection workflow
+- ✅ Pull request workflow guidance
 - ✅ Contribution guidelines
 - ✅ Security policy
 - ✅ Code of Conduct
@@ -26,44 +26,67 @@
 
 ## Quick Start
 
-### 1. Create a repository from this template
+### Prerequisites
+
+Before getting started, make sure you have:
+
+- Git
+- Node.js 24 or later
+- npm
+
+Verify your installation with:
+
+```bash
+git --version
+node --version
+npm --version
+```
+
+### 1. Create a Repository from This Template
 
 Click **Use this template** on GitHub and create a new repository.
 
-### 2. Clone your new repository
+### 2. Clone Your New Repository
 
 ```bash
-git clone git@github.com:YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 cd YOUR_REPOSITORY
 ```
 
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your own GitHub username and repository name.
+Replace:
 
-### 3. Install dependencies
+- `YOUR_USERNAME` with your GitHub username
+- `YOUR_REPOSITORY` with the name of the repository you created from this template
+
+### 3. Update the CI Badge
+
+After creating your repository, update the CI badge at the top of this README with your own GitHub username and repository name.
+
+### 4. Install Dependencies
 
 ```bash
 npm ci
 ```
 
-### 4. Run the checks
-
-Run ESLint:
+### 5. Run ESLint
 
 ```bash
 npm run lint
 ```
 
-Check formatting:
+### 6. Check Code Formatting
 
 ```bash
 npm run format:check
 ```
 
-Run tests:
+### 7. Run Tests
 
 ```bash
 npm test
 ```
+
+If all checks pass successfully, your project is ready for development.
 
 ## Available Scripts
 
